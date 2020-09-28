@@ -6,7 +6,11 @@ container.appendChild(element)*/
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'bootstrap/dist/css/bootstrap.css'
+import Card from './components/Card'
 
+//EJERCICIO DE PRUEBA
+/*
 const user = {
     firstName: 'Pablo',
     lastName: 'Parra',
@@ -35,6 +39,7 @@ const element = (
     <img src={user.avatar}/>
   </div>
 )
+*/
 const container = document.getElementById('root')
-
-ReactDOM.render(element, container)
+// ReactDOM.render(QUE,DONDE)
+ReactDOM.render(<Card></Card>, container)
