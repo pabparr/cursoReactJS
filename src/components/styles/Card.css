@@ -1,6 +1,7 @@
 .card {
     border: none;
     border-radius: 8px;
+    margin-bottom: 10px;
     /*background: url('../../images/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB);*/
     /*background: linear-gradient(to right, #A74CF2, #617BFB);*/
 }
@@ -32,8 +33,4 @@
     margin-top: 100px;
     margin-bottom: 80px;
     height: 60px;
-}
-
-div.col-6 > img {
-    height: 8em;
 }

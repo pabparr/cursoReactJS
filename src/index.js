@@ -7,9 +7,8 @@ container.appendChild(element)*/
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css'
-import Card from './components/Card'
-import Welcome from './components/Welcome'
-import exerciseImg from './images/c1.png'
+import Exercises from './pages/Exercises'
+
 
 //EJERCICIO DE PRUEBA
 /*
@@ -44,15 +43,4 @@ const element = (
 */
 const container = document.getElementById('root')
 // ReactDOM.render(QUE,DONDE)
-ReactDOM.render(<div>
-                  <Welcome
-                    username="Pablo"
-                  />
-                  <Card
-                  title="Técnicas de ejercicios"
-                  description="Aprende técnicas para no lesionarte"
-                  img={exerciseImg}
-                  leftColor="#A74CF2"
-                  rightColor="#617BFB"
-                />
-                </div>, container)
+ReactDOM.render(<Exercises/>, container)
