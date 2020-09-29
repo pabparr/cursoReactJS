@@ -1,6 +1,7 @@
 import React from 'react'
 import ExerciseList from '../components/ExerciseList'
 import Welcome from '../components/Welcome'
+import Add from '../components/Add'
 import exerciseImg from '../images/c1.png'
 //la funcion map itera todos los elementos y devuelve cada elemento (exercise)
 class Exercises extends React.Component{
@@ -36,13 +37,14 @@ class Exercises extends React.Component{
     render(){
         return (
             <div>
-                  <Welcome
-                    username="Pablo"
-                  />
-                  <ExerciseList
-                    exercises={this.state.data}
-                  />  
-                </div>
+                <Welcome
+                username="Pablo"
+                />
+                <ExerciseList
+                exercises={this.state.data}
+                />
+                <Add/> 
+            </div>
         )
     }
 }

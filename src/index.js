@@ -7,8 +7,8 @@ container.appendChild(element)*/
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css'
-import Exercises from './pages/Exercises'
 
+import App from './components/App'
 
 //EJERCICIO DE PRUEBA
 /*
@@ -43,4 +43,4 @@ const element = (
 */
 const container = document.getElementById('root')
 // ReactDOM.render(QUE,DONDE)
-ReactDOM.render(<Exercises/>, container)
+ReactDOM.render(<App/>, container)
